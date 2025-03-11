@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="479.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_0.Logo">
+   <children>
+      <ImageView fitHeight="692.0" fitWidth="729.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../resources/Untitled%20design.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="520.0" fitWidth="503.0" layoutX="95.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../resources/Blue_Simple_Personal_Logo-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="slogan" layoutX="152.0" layoutY="443.0" opacity="0" prefHeight="26.0" prefWidth="427.0" style="-fx-font-family: 'Bell MT'; -fx-font-size: 25px; -fx-font-weight: bold;" text="Making renting things a lot easier!" textFill="WHITE">
+
+      <font>
+            <Font name="Bodoni MT Bold" size="41.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
